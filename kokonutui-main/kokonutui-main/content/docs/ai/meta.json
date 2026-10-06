@@ -1,0 +1,10 @@
+{
+  "title": "AI",
+  "pages": [
+    "ai-prompt",
+    "ai-input-search",
+    "ai-loading",
+    "ai-text-loading",
+    "ai-voice"
+  ]
+}

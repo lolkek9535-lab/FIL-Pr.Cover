@@ -1,0 +1,43 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Content Signals (https://contentsignals.org). These components are MIT
+# licensed and meant to be installed by agents, so every use is permitted.
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# AI assistants and crawlers are welcome.
+# Structured docs for LLMs: https://kokonutui.com/llms.txt
+# Every docs page is also available as Markdown by appending .md
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: Claude-User
+Allow: /
+
+User-Agent: Claude-SearchBot
+Allow: /
+
+User-Agent: anthropic-ai
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Perplexity-User
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+Sitemap: https://kokonutui.com/sitemap.xml

@@ -1,0 +1,10 @@
+node_modules
+mcp/dist
+mcp/.test-dist
+.DS_Store
+
+# Secrets / local agent config
+.env
+.env.*
+!.env.example
+.claude/settings.local.json

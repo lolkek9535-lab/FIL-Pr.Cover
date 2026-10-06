@@ -1,0 +1,15 @@
+{
+  "title": "Cards",
+  "pages": [
+    "card-flip",
+    "card-stack",
+    "liquid-glass-card",
+    "apple-activity-card",
+    "mouse-effect-card",
+    "tweet-card",
+    "bento-grid",
+    "spotlight-cards",
+    "currency-transfer",
+    "carousel-cards"
+  ]
+}
